@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import FuncCounter from './components/FuncCounter';
+import ClassCounter from './components/ClassCounter';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <ClassCounter />
+      <FuncCounter/> */}
     </div>
   );
 }
