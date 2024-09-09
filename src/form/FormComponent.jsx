@@ -6,12 +6,16 @@ import formStore from "./formStore";
 
 export function FormComponent(props) {
 
-    const {storeValue, setStoreValue} = formStore((state) => state[props.storeBinding])
+    const {storeValue, setStoreValue} = formStore((state) => ({
+      storeValue:  state[props.label.toLowerCase()],
+      setStoreValue: state['set'+props.label],
+
+    }))
     return (
         <>
             <Typography>{props.label}</Typography>
             <TextField
-
+                onChange={(e) => setStoreValue(e.currentTarget.value)}
                 defaultValue={storeValue}
             >
             </TextField>

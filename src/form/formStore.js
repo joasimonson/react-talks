@@ -9,8 +9,11 @@ const initialState = {
 }
 const formStore = create((set,get) => ({
     ...initialState,
-    updateForm: (data) => set({...data}),
-    reset: () => set({...initialState})
+    setForename: (forename) => set({forename}),
+    setSurname: (surname) => set({surname}),
+    setEmail: (email) => set({email}),
+    setPhone: (phone) => set({phone}),
+    setQuery: (query) => set({query})
 }))
 
 export default formStore
