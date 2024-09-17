@@ -1,11 +1,12 @@
 import { create } from 'zustand'
 
 const initialState = {
-    forename: 'forename not set',
-    surname: 'surname not set',
-    email: 'email not set',
-    phone: 'phone not set',
-    query: 'query not set'
+    registered: false,
+    forename: '',
+    surname: '',
+    email: '',
+    phone: '',
+    query: ''
 }
 const formStore = create((set,get) => ({
     ...initialState,
@@ -13,7 +14,8 @@ const formStore = create((set,get) => ({
     setSurname: (surname) => set({surname}),
     setEmail: (email) => set({email}),
     setPhone: (phone) => set({phone}),
-    setQuery: (query) => set({query})
+    setQuery: (query) => set({query}),
+    setRegistered: (registered) => set({registered})
 }))
 
 export default formStore
