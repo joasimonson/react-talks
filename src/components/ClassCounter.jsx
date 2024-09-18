@@ -9,6 +9,7 @@ class ClassCounter extends React.Component {
          };
     }
 
+    
     render() {
         return (
             <div>
