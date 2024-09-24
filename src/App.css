@@ -22,33 +22,6 @@
   text-decoration: underline;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 20px;
-  width: 80%;
-  max-width: 600px;
-  background-color: #1e2228;
-  border-radius: 10px;
-}
-
-li {
-  padding: 15px;
-  border-bottom: 1px solid #444;
-  font-size: 1.2em;
-  color: #ddd;
-}
-
-li:last-child {
-  border-bottom: none;
-}
-
-li:hover {
-  background-color: #333;
-  color: #61dafb;
-  cursor: pointer;
-}
-
 button {
   background-color: #61dafb;
   color: #282c34;
@@ -90,4 +63,54 @@ input[type="text"]::placeholder {
 
 input[type="text"]:hover {
   background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #1e2228;
+  border-radius: 10px;
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: #333;
+  color: #61dafb;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #21a1f1;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #61dafb;
 }

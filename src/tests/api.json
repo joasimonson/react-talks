@@ -1,0 +1,55 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "publishDate": "2008-08-01"
+      },
+      {
+        "id": 2,
+        "name": "The Pragmatic Programmer: Your Journey to Mastery",
+        "author": "Andrew Hunt and David Thomas",
+        "publishDate": "2019-09-13"
+      },
+      {
+        "id": 3,
+        "name": "You Don't Know JS (book series)",
+        "author": "Kyle Simpson",
+        "publishDate": "2014-12-28"
+      },
+      {
+        "id": 4,
+        "name": "Introduction to the Theory of Computation",
+        "author": "Michael Sipser",
+        "publishDate": "2005-01-27"
+      },
+      {
+        "id": 5,
+        "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides",
+        "publishDate": "1994-10-31"
+      },
+      {
+        "id": 6,
+        "name": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "publishDate": "2011-05-04"
+      },
+      {
+        "id": 7,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publishDate": "2018-11-20"
+      },
+      {
+        "id": 8,
+        "name": "Effective Java",
+        "author": "Joshua Bloch",
+        "publishDate": "2008-05-28"
+      }
+    ],
+    "profile": {
+      "name": "Jo Araújo"
+    }
+  }
