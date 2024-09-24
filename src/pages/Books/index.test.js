@@ -31,13 +31,18 @@ describe('Books Component', () => {
     })
   })
 
-  it('should fetch books with the correct URL', async () => {
-    axios.get.mockResolvedValueOnce({ data: [] })
+  it.each([
+    { data: []},
+    { data: { record: [] } }
+  ])('should fetch books with the correct URL', async (response) => {
+    process.env.REACT_APP_BOOKS_API_URL = 'http://fake.url';
+
+    axios.get.mockResolvedValueOnce(response)
     
     render(<Books />)
     
     await waitFor(() => {
-      expect(axios.get).toHaveBeenCalledWith('http://localhost:7000/books')
+      expect(axios.get).toHaveBeenCalledWith('http://fake.url')
     })
   })
 

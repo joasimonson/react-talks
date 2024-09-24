@@ -14,6 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "react-scripts test --ci",
     "test:server": "npx json-server --watch src/tests/api.json --port 7000",
     "eject": "react-scripts eject"
   },
