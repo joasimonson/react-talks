@@ -1,0 +1,15 @@
+/* style.css */
+.container {
+  background-color: rgb(84, 214, 155);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  color: white;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: bold;
+}
