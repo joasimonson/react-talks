@@ -13,7 +13,6 @@ export function BaseForm(){
             <FormComponent label='Surname'/>
             <FormComponent label='Email' />
             <FormComponent label='Phone' />
-            <FormComponent label='Query'/>
             <br/>
             <Button variant='outlined'
             onClick={()=> {if(!registered)setRegistered(true)} }

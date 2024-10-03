@@ -8,7 +8,6 @@ export function SummaryBase(){
             <SummaryComponent label="Surname"/>
             <SummaryComponent label="Email"/>
             <SummaryComponent label="Phone"/>
-            <SummaryComponent label="Query"/>
         </>
 
 
